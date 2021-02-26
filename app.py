@@ -48,6 +48,7 @@ def welcome():
     return (
         f"Welcome to Tony's Hawaii API<br/>"
         f"Query date must be in the format of 'yyyy-mm-dd', thanks.<br/>"
+        f"Query dates to be in the range of 2010-01-01 to 2017-08-23<br/>"
         f"Available Routes:<br/>"
         f"/api/v1.0/precipitation<br/>"
         f"/api/v1.0/stations<br/>"
