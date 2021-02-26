@@ -19,10 +19,7 @@ import datetime as dt
 
 engine = create_engine("sqlite:///Resources/hawaii.sqlite", echo=False )
 
-#engine = create_engine(f"sqlite:///{file_path}", echo=False )
-# Use the Inspector to explore the database and print the table names
-# inspector = inspect(engine)
-# inspector.get_table_names()
+
 
 # reflect an existing database into a new model
 Base = automap_base()
