@@ -52,7 +52,7 @@ To begin, use Python and SQLAlchemy to do basic climate analysis and data explor
 
   * Plot the results as a histogram with `bins=12`.
 
-    ![station-histogram](Images/temp_hist.png)
+    ![station-histogram](Images/tem_hist.PNG)
 
 - - -
 
