@@ -66,6 +66,10 @@ After the initial analysis, design a Flask API based on the queries that have ju
 
 * Use Flask to create your routes.
 
+* **Screenshot APP**
+
+![Flask App](Images/app.PNG)
+
 ### Routes
 
 * `/`
