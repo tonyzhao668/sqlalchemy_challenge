@@ -148,6 +148,7 @@ After the initial analysis, design a Flask API based on the queries that have ju
 * My choosed vacation/trip dates were 2011-02-28 to 2011-03-05
 * For everyday's precipitation/tobs, I have used avg, due to one day could be several observations.
 
+## Job completely done!
 
 
 
