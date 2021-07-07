@@ -6,9 +6,7 @@ Date 23/02/2021
 
 ### Background
 
-![surfs-up.png](Images/surfs-up.png)
-
-To help with trip planning, to do some climate analysis on the area Hawaii! The following outlines what need to do.
+To help with trip planning, to do some climate analysis on the area Hawaii! The following outlines what need to be done.
 
 ## Step 1 - Climate Analysis and Exploration, done!
 
@@ -34,7 +32,7 @@ To begin, use Python and SQLAlchemy to do basic climate analysis and data explor
 
 * Plot the results using the DataFrame `plot` method.
 
-  ![precipitation](Images/precipitation.png)
+  ![precipitation](Images/precipitation.PNG)
 
 * Use Pandas to print the summary statistics for the precipitation data.
 
@@ -54,7 +52,7 @@ To begin, use Python and SQLAlchemy to do basic climate analysis and data explor
 
   * Plot the results as a histogram with `bins=12`.
 
-    ![station-histogram](Images/station-histogram.png)
+    ![station-histogram](Images/temp_hist.png)
 
 - - -
 
@@ -119,11 +117,11 @@ After the initial analysis, design a Flask API based on the queries that have ju
 
   * Use the peak-to-peak (TMAX-TMIN) value as the y error bar (YERR).
 
-    ![temperature](Images/temperature.png)
+    ![temperature](Images/tripavgtemp.PNG)
 
-### Daily Rainfall Average
+### Daily Temperature Average
 
-* Calculate the rainfall per weather station using the previous year's matching dates.
+* Calculate the temperature per weather station using the previous year's matching dates.
 
 * Calculate the daily normals. Normals are the averages for the min, avg, and max temperatures.
 
@@ -135,7 +133,7 @@ After the initial analysis, design a Flask API based on the queries that have ju
 
 * Use Pandas to plot an area plot (`stacked=False`) for the daily normals.
 
-  ![daily-normals](Images/daily-normals.png)
+  ![daily-normals](Images/triptemp.PNG)
 
 
 ## Remarks:
